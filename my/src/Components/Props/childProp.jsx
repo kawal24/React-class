@@ -4,6 +4,8 @@ const ChildProp = ({ ...prop }) => {
   console.log("prop", prop.firstValue, prop.secondValue);
   const [result, setresult] = useState(0);
 
+  const UpdateButton = () => {};
+
   return (
     <div className=" mt-[20px]  ml-[30px]">
       <div className="flex gap-[10px]">

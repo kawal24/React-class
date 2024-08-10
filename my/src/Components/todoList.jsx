@@ -14,7 +14,7 @@ const Todolist = () => {
   };
 
   const remove = (val) => {
-    console.log("val", val);
+    // console.log("val", val);
     const afterRemove = list.filter((elm) => elm?.id !== val?.id);
     console.log("wow", afterRemove);
     setList(afterRemove);
