@@ -1,5 +1,6 @@
-import { Component } from "react";
+// import { Component } from "react";
 import "./App.css";
+import Counter1 from "./Components/Counter1";
 // import { Routes, Route } from "react-router-dom";
 // import Home from './Components/project/home';
 // import Shopallpage from './Components/project/shopall';
@@ -11,7 +12,7 @@ import "./App.css";
 // import Testreact from './Components/reacttest';
 // import Putaxiosreq from './Components/axois/update';
 // import Putaxios from './Components/axois/putaxios';
-import Userinfo from "./Components/axois/getaxois";
+// import Userinfo from "./Components/axois/getaxois";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Plans />
       <Grid /> */}
       {/* <FilterFunction/> */}
-      {/* <Counter1/> */}
+      <Counter1 />
       {/* {<Num/>} */}
       {/* <Aman/> */}
       {/* <Count/> */}
@@ -37,7 +38,6 @@ function App() {
       {/* <Todolist/> */}
       {/* <ParentProp/> */}
       {/* <ChildProp/> */}
-
       {/* <Todolistone/> */}
       {/* <BottomFile/> */}
       {/* <EffectTutorial/> */}
@@ -52,12 +52,10 @@ function App() {
       {/* <Actionbutton/> */}
       {/* <Displaytext/> */}
       {/* <ParentJoati/> */}
-
       {/* <Usercard/> */}
-      <Userinfo />
+      {/* <Userinfo /> */}
       {/* <Putaxios/> */}
       {/* <Putaxiosreq/> */}
-
       {/* <AlertTut/> */}
       {/* <Getmethod/> */}
       {/* <Postmethod/> */}
